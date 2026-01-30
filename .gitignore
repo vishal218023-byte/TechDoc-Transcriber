@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Project specific
+models/
+.gemini/
+
+# IDE files
+.vscode/
+.idea/

@@ -29,7 +29,14 @@ TechDoc Transcriber is a GUI-based tool designed to convert technical documents 
    ```bash
    pip install -r requirements.txt
    ```
-5. Ensure the Docling artifacts are available in `./models/docling_artifacts`.
+5. **Download Models (Internet required for this step only)**:
+   Since the application is designed for offline use, you must first download the required AI models to your local machine:
+   ```bash
+   python download_artifacts.py
+   ```
+   This will store the models in `./models/docling_artifacts`.
+
+6. **Verify Artifacts**: Ensure the directory `./models/docling_artifacts` is populated before running the main application.
 
 ## Usage
 

@@ -25,7 +25,10 @@ TechDoc Transcriber is a GUI-based tool designed to convert technical documents 
 3. Activate the virtual environment:
    - Windows: `.\.venv\Scripts\activate`
    - Linux/macOS: `source .venv/bin/activate`
-4. Install dependencies (ensure `docling` and `customtkinter` are installed).
+4. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 5. Ensure the Docling artifacts are available in `./models/docling_artifacts`.
 
 ## Usage
